@@ -6,6 +6,7 @@ close_list = ["}", "]", ")"]
 def check_balance(str):
     stack = []
     for i in str:
+        #i for change
         if i in open_list:
             stack.append(i)
         if i in close_list:
