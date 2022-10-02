@@ -2,7 +2,7 @@
 open_list = ["{", "[", "("]
 close_list = ["}", "]", ")"]
 
-
+#add to check this
 def check_balance(str):
     stack = []
     for i in str:
